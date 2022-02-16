@@ -1,7 +1,8 @@
-# Quordle
+# Quadrus (version française de Quordle)
 
-![Quordle](https://www.quordle.com/quordle-banner-1200.png)
+![Quadrus](https://www.quordle.com/quordle-banner-1200.png)
 
-Put your skills to the test and solve four Wordles at once! You have 9 guesses to solve all four words. A new Quordle available each day to solve.
+Mettez votre talent à rude épreuve en résolvant simultanément 4 Wordle en même temps ! Vous avez 9 essais pour résoudre les 4 mots. Un nouveau groupe de 4 mots sera disponible chaque jour.
 
-Play at www.quordle.com
+Jouez sur https://quadrus.guigro.com
+Version originale en anglais sur www.quordle.com
