@@ -78,9 +78,19 @@
         });
       }
     </script>
-    <script type="module" crossorigin src="/assets/index.min.js"></script>
+    <script type="module">
+      const defaultLocale = "en";
+      var newLocale = document.documentElement.lang;
+      var newLocalePath = "/assets/lang/" + newLocale + ".js";
+      var addScript = document.createElement('script');
+      addScript.type = "module";
+	    addScript.src = newLocalePath;
+      var head = document.getElementsByTagName("head")[0]
+      head.insertBefore(addScript, head.firstChild);
+    </script>
+    <script type="module" crossorigin src="/assets/index.js"></script>
     <link rel="modulepreload" href="/assets/vendor.92a689d9.js">
-    <link rel="stylesheet" href="/assets/index.a7452eda.css">
+    <link rel="stylesheet" href="/assets/index.d2346360.css">
   </head>
   <body>
     <noscript>Vous devez activer Javascript pour utiliser cette application.</noscript>
