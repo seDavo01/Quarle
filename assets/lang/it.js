@@ -10,7 +10,7 @@ var lang =
 	},
     "appname": "Quarle",
 	"daily": "Giornaliero",
-    "webaddress": "",
+    "webaddress": "https://sedavo01.github.io/Quarle/#/",
     "practice": "Pratica",
 	"in": "in",
     "hours": "ore",
