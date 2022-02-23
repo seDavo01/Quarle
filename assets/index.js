@@ -61,7 +61,7 @@ import {
     examples,
     rules,
     supporters
-} from "/assets/lang/fr.js";
+} from "/assets/lang/it.js";
 var et = Ke(Fe => {
     const is = function() {
         const s = document.createElement("link").relList;
@@ -102,7 +102,7 @@ var et = Ke(Fe => {
             minute: 60 * 1e3,
             second: 1e3
         },
-        ze = new Date("01/24/2022"),
+        ze = new Date("02/23/2022"),
         _e = re.day,
         Ne = "abcdefghijklmnopqrstuvwxyz",
         ls = keyboardLayout,
