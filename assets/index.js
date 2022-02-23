@@ -684,11 +684,11 @@ var et = Ke(Fe => {
     }
     const Ge = (e, s) => {
             let t = "";
-            e === "daily" ? t = lang.daily + lang.appname + s.seed.toString(10) + `
+            e === "daily" ? t = lang.appname + ' #' + s.seed.toString(10) + '\n' + `
 ` + H(s.answersCorrect[0]) + H(s.answersCorrect[1]) + `
 ` + H(s.answersCorrect[2]) + H(s.answersCorrect[3]) : t = lang.practice + lang.appname + `
 ` + H(s.answersCorrect[0]) + H(s.answersCorrect[1]) + (" " + s.answers[0].toUpperCase() + " - " + s.answers[1].toUpperCase()) + `
-` + H(s.answersCorrect[2]) + H(s.answersCorrect[3]) + (" " + s.answers[2].toUpperCase() + " - " + s.answers[3].toUpperCase()), t += lang.webaddress;
+` + H(s.answersCorrect[2]) + H(s.answersCorrect[3]) + (" " + s.answers[2].toUpperCase() + " - " + s.answers[3].toUpperCase());
             const l = t;
             t += `
 `;
@@ -696,14 +696,18 @@ var et = Ke(Fe => {
             s.answersCorrect[0] >= 0 && s.answersCorrect[1] >= 0 && (i = Math.max(s.answersCorrect[0], s.answersCorrect[1]));
             let n = M - 1;
             s.answersCorrect[2] >= 0 && s.answersCorrect[3] >= 0 && (n = Math.max(s.answersCorrect[2], s.answersCorrect[3]));
+
+            t += '\n';
+            
             for (let o = 0; o <= i; o++) t += me(s.states[0][o]) + " " + me(s.states[1][o]) + `
 `;
             t += `
 `;
             for (let o = 0; o <= n; o++) t += me(s.states[2][o]) + " " + me(s.states[3][o]) + `
-`;
+`; 
+            t += '\n' + lang.webaddress;
             return [t, l]
-        },
+        }, 
         he = (e, s, t) => Ce(Fe, null, function*() {
             const [l, i] = Ge(e, s);
             if (L("event", "share", {

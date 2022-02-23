@@ -9,7 +9,7 @@ var lang =
 		"other-metadata": "sample json format"
 	},
     "appname": "Quarle",
-	"daily": "Giornaliero",
+	"daily": "Quotidiano",
     "webaddress": "https://sedavo01.github.io/Quarle/#/",
     "practice": "Pratica",
 	"in": "in",
@@ -57,7 +57,7 @@ var lang =
     "lossdistrexplain": "(# parole mancate)",
     "pagenotfound": "Page not found",
     "notfoundtext": "The page you\u2019re looking for doesn\u2019t exist.",
-    "backtodaily": "Torna al Quarle Giornaliero",
+    "backtodaily": "Torna al Quarle Quotidiano",
 };
 
 var keyboardLayout = [
